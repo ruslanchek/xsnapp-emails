@@ -17,8 +17,8 @@
       <mj-spacer height="10px"></mj-spacer>
 
       <mj-text align="center" line-height="18px" font-size="12px">
-        {{copyright}} 
-        <a class="link-footer" href="{{unsubscribeLinkUrl}}">{{unsubscribeLinkText}}</a>.
+        <p>{{copyright}}</p>
+        <p><a class="link-footer" href="{{unsubscribeLinkUrl}}">{{unsubscribeLinkText}}</a></p>
       </mj-text>
     </mj-column>
   </mj-section>
