@@ -3,7 +3,7 @@
 <mj-wrapper full-width="full-width" background-color="#fff" padding="0" border-top="1px solid #EFF1F2">
   <mj-section>
     <mj-column>
-      <mj-image href="{{siteUrl}}" width="130px" src="https://static-realthub-com.ams3.digitaloceanspaces.com/mail/common/logos/realthub-bw.png">
+      <mj-image href="{{siteUrl}}" width="64px" src="https://static-xsnapp.ams3.cdn.digitaloceanspaces.com/assets/email/common/x-logo-bw.png">
       </mj-image>
 
       <mj-text align="center">

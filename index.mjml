@@ -3,7 +3,7 @@
     <mj-attributes>
       <mj-text color="#888888" font-family="Open Sans, Helvetica Neue, Arial, sans-serif" />
 
-      <mj-button font-family="Open Sans, Helvetica Neue, Arial, sans-serif" font-size="14px" color="#fff" background-color="#33A465" inner-padding="15px" />
+      <mj-button font-family="Open Sans, Helvetica Neue, Arial, sans-serif" font-size="14px" color="#0F1128" font-weight="600" background-color="#2FDAE3" inner-padding="15px" />
     </mj-attributes>
 
     <mj-style inline="inline">
