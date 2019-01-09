@@ -1,0 +1,2 @@
+# xsnapp-emails
+Email templates
