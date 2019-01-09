@@ -1,0 +1,53 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text color="#888888" font-family="Open Sans, Helvetica Neue, Arial, sans-serif" />
+
+      <mj-button font-family="Open Sans, Helvetica Neue, Arial, sans-serif" font-size="14px" color="#fff" background-color="#33A465" inner-padding="15px" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .link-small { color: #5A636F; font-size: 12px; } .link-footer { color: #888888; text-decoration: none; } .link-footer-nav { font-size: 14px; color: #888888; text-decoration: none; margin: 20px 10px 0; display: inline-block; } .h1 { margin: 0; }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#F8F9FB">
+    <mj-include path="./header.mjml" />
+
+    <mj-wrapper padding="0 30px">
+      <mj-section border="1px solid #EFF1F2" border-bottom="2px solid #EFF1F2" background-color="#fff">
+        <mj-column width="100%">
+          <mj-text line-height="24px" align="center" font-size="14px">
+            {{pre}}
+          </mj-text>
+
+          <mj-text line-height="34px" align="center" color="#222E3F">
+            <h1 class="h1">
+              {{title}}
+            </h1>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="100%">
+          <mj-text line-height="24px" align="center" font-size="14px">
+            {{body}}
+          </mj-text>
+
+          <mj-spacer height="10px"></mj-spacer>
+
+          <mj-button href="{{buttonUrl}}">
+            {{buttonText}}
+          </mj-button>
+          
+          <mj-spacer height="10px"></mj-spacer>
+
+          <mj-text line-height="24px" align="center" font-size="12px">
+            {{post}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-include path="./footer.mjml" />
+  </mj-body>
+</mjml>

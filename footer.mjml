@@ -1,0 +1,25 @@
+<mj-spacer height="40px"></mj-spacer>
+
+<mj-wrapper full-width="full-width" background-color="#fff" padding="0" border-top="1px solid #EFF1F2">
+  <mj-section>
+    <mj-column>
+      <mj-image href="{{siteUrl}}" width="130px" src="https://static-realthub-com.ams3.digitaloceanspaces.com/mail/common/logos/realthub-bw.png">
+      </mj-image>
+
+      <mj-text align="center">
+        {{#nav}}
+          <a class="link-footer-nav" href="{{url}}">
+            {{title}}
+          </a>
+        {{/nav}}
+      </mj-text>
+
+      <mj-spacer height="10px"></mj-spacer>
+
+      <mj-text align="center" line-height="18px" font-size="12px">
+        {{copyright}} 
+        <a class="link-footer" href="{{unsubscribeLinkUrl}}">{{unsubscribeLinkText}}</a>.
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>

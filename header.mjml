@@ -1,0 +1,16 @@
+<mj-section>
+  <mj-column>
+    <mj-image
+      href="{{siteUrl}}"
+      width="50px"
+    	src="https://static-realthub-com.ams3.digitaloceanspaces.com/mail/common/logos/realthub-short-color.png"
+    >
+    </mj-image>
+    
+    <mj-text align="center">
+      <a class="link-small" href="{{linkUnderLogoUrl}}">
+        {{linkUnderLogoText}}
+      </a>
+    </mj-text>	
+  </mj-column>
+</mj-section>
